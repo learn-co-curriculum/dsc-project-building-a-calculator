@@ -1,8 +1,11 @@
 
 ## Project: Develop a Basic calculator program using Python
 
-### SWABT
+## Introduction
+We've introduced a lot of new content in this section. Here's a chance to get some practice with your newly found skills in Python by building a calculator.
 
+## Objectives
+You will be able to:
 * Show mastery of the content covered in this section including:
         1. Data types 
         2. Iteration 
