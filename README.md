@@ -1,20 +1,22 @@
 
-## Project: Develop a Basic calculator program using Python
+# Project - Building a Calculator
 
-### SWABT
 
-* Show mastery of the content covered in this section including:
-        1. Data types 
-        2. Iteration 
-        3. Conditionals 
-        4. Functions 
-        5. User I/O. 
+## Introduction 
 
-### The problem
+In this project, you'll create a simple calculator which can perform basic arithmetic operations like addition, subtraction, multiplication or division depending upon the user input.
 
->**Create a simple calculator which can perform basic arithmetic operations like addition, subtraction, multiplication or division depending upon the user input**.
+## Objectives
 
-### Approach 
+You will be able to:
+
+* Perform operations on various data types 
+* Use loops to perform iteration 
+* Use conditionals to make programming decisions
+* Define and use functions 
+* Ingest and parse user input 
+
+## Approach 
 
 * User choose the desired operation. Options 1, 2, 3, 4 are valid options for operations.  
 * Two numbers are taken and an `if…elif…else` branching is used to execute a particular section.
