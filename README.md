@@ -25,7 +25,7 @@ You will be able to:
 
 * The code should handle exceptions and must return **"invalid input*** when an unexpected character is given in the input (anything other than 1 - 4).
 
-### Example Interface
+## Example Interface
 Here is the interface you are expected to build. Don't worry if it is not 100% exactly as what is shown. Focus more on the getting the logic correct at this stage. 
 
 ```
@@ -41,7 +41,7 @@ Enter second number : 13
 20 + 13 = 33
 ```
 
-### Creating Arithmetic Functions
+## Creating Arithmetic Functions
 
 We shall create four functions, one for each arithmetic operation which will perform the required operation and return the resulting value as shown below:
 
@@ -77,7 +77,7 @@ def divide(num1, num2):
     return None
 ```
 
-### Create a Command-line User Interface
+## Create a Command-line User Interface
 We shall now write the main program body to take user input and call the relevant function:
 
 
@@ -117,7 +117,7 @@ We shall now write the main program body to take user input and call the relevan
     Enter first number: 2
     Enter second number: 3
     2 + 3 = 5
-    
+
 
 ## Bring in the While loop
 
@@ -125,7 +125,7 @@ We can see how the logic set by using if-else statements, along with functions c
 
 >Let's try to make it a bit more interesting by introducing the behaviour of a real calculator so our users can choose to either continue with calculations OR exit the system. Users gets this functionality by pressing `y` for yes and `n` for no towards continuation.
 
-### Example Interface
+## Example Interface
 
 **Notice `continue: y/n` at the bottom of interface.**
 
@@ -186,6 +186,6 @@ def divide_v2(num1, num2):
     return None
 ```
 
-### Summary
+## Summary
 
 In this lab we saw how loops and conditions can be used to control the logic of a program execution based on user input. We started with building a simple calculator and incrementally added more functionality to it by adding loops for iteration and further conditions allowing different type of calculations. We also practiced User I/O by taking choices from the users and dealing with exceptions (unexpected input). 
