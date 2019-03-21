@@ -43,7 +43,7 @@ Enter second number : 13
 
 ## Creating Arithmetic Functions
 
-We shall create four functions, one for each arithmetic operation which will perform the required operation and return the resulting value as shown below:
+We'll create four functions, one for each arithmetic operation which will perform the required operation and return the resulting value as shown below:
 
 
 ```python
@@ -78,7 +78,7 @@ def divide(num1, num2):
 ```
 
 ## Create a Command-line User Interface
-We shall now write the main program body to take user input and call the relevant function:
+We'll now write the main program body to take user input and call the relevant function:
 
 
 ```python
