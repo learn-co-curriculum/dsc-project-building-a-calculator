@@ -26,7 +26,6 @@ You will be able to:
 * The code should handle exceptions and must return **"invalid input*** when an unexpected character is given in the input (anything other than 1 - 4).
 
 ## Example Interface
-
 Here is the interface you are expected to build. Don't worry if it is not 100% exactly as what is shown. Focus more on the getting the logic correct at this stage. 
 
 ```
@@ -148,7 +147,7 @@ We can see how the logic set by using if-else statements, along with functions c
 
 ## Example Interface
 
-Notice `continue: y/n` at the bottom of interface.
+**Notice `continue: y/n` at the bottom of interface.**
 
 ```
 Please select an operation:
