@@ -10,21 +10,21 @@ In this project, you'll create a simple calculator which can perform basic arith
 
 You will be able to:
 
-* Perform operations on various data types 
-* Use loops to perform iteration 
-* Use conditionals to make programming decisions
-* Define and use functions 
-* Ingest and parse user input 
+- Perform operations on various data types 
+- Use loops to perform iteration 
+- Use conditionals to make programming decisions
+- Define and use functions 
+- Ingest and parse user input 
 
 ## Approach 
 
-* User chooses the desired operation. Options 1, 2, 3, 4 are valid options for operations   
-* Two numbers are taken and an `if…elif…else` branching is used to execute a particular section 
-* Using functions `add()`, `subtract()`, `multiply()`, and `divide()` evaluate respective operations 
-* The code should handle exceptions and must return **"invalid input*** when an unexpected character is given in the input (anything other than 1 - 4) 
+- User chooses the desired operation. Options 1, 2, 3, 4 are valid options for operations   
+- Two numbers are taken and an `if…elif…else` branching is used to execute a particular section 
+- Using functions `add()`, `subtract()`, `multiply()`, and `divide()` evaluate respective operations 
+- The code should handle exceptions and must return **"invalid input"** when an unexpected character is given in the input (anything other than 1 - 4) 
 
 ## Example Interface
-Here is the interface you are expected to build. Don't worry if it is not 100% exactly as what is shown. Focus more on the getting the logic correct at this stage. 
+Here is the interface you are expected to build. Don't worry if it is not 100% the same as what is shown. Focus more on the getting the logic correct at this stage. 
 
 ```
 Please select an operation:
@@ -185,4 +185,4 @@ def divide_v2(num1, num2):
 
 ## Summary
 
-In this lab we saw how loops and conditions can be used to control the logic of a program execution based on user input. We started with building a simple calculator and incrementally added more functionality to it by adding loops for iteration and further conditions allowing different type of calculations. We also practiced user I/O by taking choices from the users and dealing with exceptions (unexpected input). 
+In this lab, we saw how loops and conditions can be used to control the logic of a program execution based on user input. We started with building a simple calculator and incrementally added more functionality to it by adding loops for iteration and further conditions allowing different type of calculations. We also practiced user I/O by taking choices from the users and dealing with exceptions (unexpected input). 
