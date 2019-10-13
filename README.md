@@ -33,7 +33,7 @@ Please select an operation:
 3. Multiply
 4. Divide
 
-Select operations form 1, 2, 3, 4 : 1
+Select operations from 1, 2, 3, 4 : 1
 Enter first number : 20
 Enter second number : 13
 20 + 13 = 33
@@ -99,7 +99,7 @@ We'll now write the main program body to take user input and call the relevant f
 # 3. Multiply
 # 4. Divide
 
-# Select operations form 1, 2, 3, 4 :1
+# Select operations from 1, 2, 3, 4 :1
 # Enter first number: 2
 # Enter second number: 3
 # 2 + 3 = 5
@@ -111,7 +111,7 @@ Please select operation -
 3. Multiply
 4. Divide
 
-Select operations form 1, 2, 3, 4 :1    
+Select operations from 1, 2, 3, 4 :1    
 Enter first number: 2    
 Enter second number: 3    
 2 + 3 = 5 
@@ -133,7 +133,7 @@ Please select an operation:
 3. Multiply
 4. Divide
 
-Select operations form 1, 2, 3, 4 : 1
+Select operations from 1, 2, 3, 4 : 1
 Enter first number : 20
 Enter second number : 13
 20 + 13 = 33
@@ -157,13 +157,13 @@ Let's work towards implementing iteration into the equation and enclose above I/
 
 #Expected output format
 
-# Select operations form 1, 2, 3, 4 :4
+# Select operations from 1, 2, 3, 4 :4
 # Enter first number: 5
 # Enter second number: 4
 # Press d for division and m for modulo operatorm
 # 5 / 4 = 1
 # Continue? y/n:y
-# Select operations form 1, 2, 3, 4 :4
+# Select operations from 1, 2, 3, 4 :4
 # Enter first number: 5
 # Enter second number: 4
 # Press d for division and m for modulo operatord
