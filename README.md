@@ -174,7 +174,7 @@ Let's work towards implementing iteration into the equation and enclose above I/
 
 The `while` loop shown above allows the iteration through the code until a specific input from user i.e. `n` is noticed. Let's add some more functionality to this code by asking users about the type of division they are interested in, and this could be either normal division (as before) or a modulo operator (shows remainder).
 
-> Change the code in the division function so that if a user selects division operation, the code should ask the user if he/she wants a normal division `/` or float division `//`, or a modulo division `%` which only returns the remainder of a division. The program should return an exception for any other inputs. 
+> Change the code in the division function so that if a user selects division operation, the code should ask the user if he/she wants a normal division `/` or a floor division `//`, or a modulo division `%` which only returns the remainder of a division. The program should return an exception for any other inputs. 
 
 
 ```python
