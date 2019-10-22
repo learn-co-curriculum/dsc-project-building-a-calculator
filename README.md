@@ -1,5 +1,5 @@
 
-# Project - Building a Calculator
+# Functions Practice: Building a Calculator
 
 
 ## Introduction 
