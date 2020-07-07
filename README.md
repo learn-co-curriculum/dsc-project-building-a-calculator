@@ -45,7 +45,7 @@ Enter second number : 13
 We'll create four functions, one for each arithmetic operation which will perform the required operation and return the resulting value as shown below:
 
 
-```python
+```
 # Function to add two numbers 
 def add(num1, num2):
     # Perform the calculation
@@ -53,7 +53,7 @@ def add(num1, num2):
 ```
 
 
-```python
+```
 # Function to subtract two numbers 
 def subtract(num1, num2):
     # Perform the calculation
@@ -61,7 +61,7 @@ def subtract(num1, num2):
 ```
 
 
-```python
+```
 # Function to multiply two numbers
 def multiply(num1, num2):
     # Perform the calculation
@@ -69,7 +69,7 @@ def multiply(num1, num2):
 ```
 
 
-```python
+```
 # Function to divide two numbers
 def divide(num1, num2):
     # Perform the calculation
@@ -91,7 +91,7 @@ Enter second number: 3
 2 + 3 = 5 
 
 
-```python
+```
 # Print user menu 
 print('Please select operation -\n' \
         '1. Add\n' \
@@ -167,7 +167,7 @@ Continue: y/n
 Let's work towards implementing iteration into the equation and enclose above I/O interface inside a `while` loop.
 
 
-```python
+```
 # Initialize the code with cont (continue) flag set to yes (y)
 cont = 'y'
 
@@ -223,7 +223,7 @@ The `while` loop shown above allows the iteration through the code until a speci
 > Change the code in the division function so that if a user selects division operation, the code should ask the user if he/she wants a normal division `/` or floor division `//`, or a modulo division `%` which only returns the remainder of a division. The program should return an exception for any other inputs. 
 
 
-```python
+```
 def divide(num1, num2):
     div = input('Press d for normal division, f for floor division, or m for modulo division')
     if div == 'd':
@@ -239,4 +239,4 @@ def divide(num1, num2):
 
 ## Summary
 
-In this lab, we saw how loops and conditions can be used to control the logic of a program execution based on user input. We started with building a simple calculator and incrementally added more functionality to it by adding loops for iteration and further conditions allowing different type of calculations. We also practiced user I/O by taking choices from the users and dealing with exceptions (unexpected input). 
+In this lab, we saw how loops and conditions can be used to control the logic of a program execution based on user input. We started with building a simple calculator and incrementally added more functionality to it by adding loops for iteration and further conditions allowing different types of calculations. We also practiced user I/O by taking choices from the users and dealing with exceptions (unexpected input). 
